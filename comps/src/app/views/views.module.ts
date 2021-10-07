@@ -13,6 +13,6 @@ import { ViewsHomeComponent } from './views-home/views-home.component';
     CommonModule,
     ViewsRoutingModule
   ],
-  exports: [ViewsHomeComponent]
+  exports: []
 })
 export class ViewsModule { }

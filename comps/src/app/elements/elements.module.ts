@@ -14,7 +14,7 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
     ElementsRoutingModule
   ],
   // exportする
-  exports: [ElementsHomeComponent]
+  exports: []
 
 })
 export class ElementsModule { }

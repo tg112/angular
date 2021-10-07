@@ -13,6 +13,6 @@ import { ModsHomeComponent } from './mods-home/mods-home.component';
     CommonModule,
     ModsRoutingModule
   ],
-  exports: [ModsHomeComponent]
+  exports: []
 })
 export class ModsModule { }
