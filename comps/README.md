@@ -14,3 +14,6 @@ const routes: Routes = [{
   path: "<パス名>", component: <遷移時に表示するコンポーネント>
 }];
 ```
+
+## Lazy loading
+最低限のリソースのみをロードする
