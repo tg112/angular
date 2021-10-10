@@ -10,7 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
   ],
   // moduleを定義する順番でroutingの優先度が変わる
   imports: [

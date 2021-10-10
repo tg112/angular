@@ -1,1 +1,14 @@
-<p>collections-home works!</p>
+<app-divider>
+    Table component
+</app-divider>
+<app-table [data]="data" [headers]="headers" classNames="striped celled"></app-table>
+
+<!-- ルーティングによって定義した、コンポーネントを下記に表示する。上記は共通 -->
+<app-divider>
+    Tab Menu
+</app-divider>
+<app-tabs>
+    <a class="item" routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Biograpy</a>
+    <a class="item" routerLink="./companies" routerLinkActive="active">Company</a>
+    <a class="item"  routerLink="./partners" routerLinkActive="active">Partner</a>
+</app-tabs>
