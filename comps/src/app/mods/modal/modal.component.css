@@ -1,0 +1,12 @@
+/* コンテントがない場合の設定 */
+.actions:empty {
+    display: none;
+}
+
+.actions-default:empty {
+    display: none;
+}
+
+.actions:empty + .actions-default {
+    display: block;
+}

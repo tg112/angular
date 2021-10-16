@@ -1,0 +1,15 @@
+<!-- 
+    ・共通で表示するものをrouter-outletと共に表示する 
+    ・routerLinkを使うことで、変更があった箇所だけ更新する
+-->
+<div class="ui container">
+    <div class="ui secondary pointing menu">
+        <a routerLink="elements" routerLinkActive="active" class="item">Elements</a>
+        <a routerLink="collections" routerLinkActive="active" class="item">Collections</a>
+        <a routerLink="views" routerLinkActive="active" class="item">Views</a>
+        <a routerLink="mods" routerLinkActive="active" class="item">Mods</a>
+    </div>
+    <div class="ui segment">
+        <router-outlet></router-outlet>
+    </div>
+</div>
