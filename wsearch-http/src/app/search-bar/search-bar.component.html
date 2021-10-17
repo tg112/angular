@@ -1,0 +1,4 @@
+<form (submit)="onFormSubmit($event)">
+  <!-- component.tsファイルにメソッドを定義する必要がない -->
+  <input type="text" (input)="term = $any($event.target).value" />
+</form>
