@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+  width: 250px;
+}
+
+.button {
+    width: 100px;
+}
